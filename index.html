@@ -180,17 +180,29 @@
       </div>
     </div>
     <!-- footer -->
-    <footer class="footer">
-      <div class="container">
-        <img src="./img/Logo.png" alt="" />
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <form>
-          <label for="email">Want to see new recipes first?</label>
-          <input type="email" name="email" id="email" />
-          <button type="submit">Subscribe</button>
-        </form>
+    <footer class="footer mt-5">
+      <div class="container footer-content d-flex justify-content-between">
+        <img src="./img/Logo.png" alt="logo" class="logo" />
+        <div class="social-links">
+          <a href=""><i class="fa-brands fa-facebook pe-4"></i></a>
+          <a href=""><i class="fa-brands fa-instagram pe-4"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="subscribe">
+          <form>
+            <label for="email" class="label d-block mb-2"
+              >Want to see new recipes first?</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="email-input rounded"
+              placeholder="Enter email"
+            />
+            <button type="submit" class="btn subscribe-btn">Subscribe</button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>

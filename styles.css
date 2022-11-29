@@ -59,6 +59,37 @@ body {
 .recipe-card a {
   text-decoration: none;
 }
-.footer{
+.footer {
   background: #e5e5e5;
+  
+}
+.footer-content{
+align-items: baseline;}
+.logo,
+.social-links {
+  margin: 70px 0;
+}
+.social-links a {
+  color: var(--dark-text-color);
+  font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+.social-links a:hover {
+  color: var(--accent-pink-color);
+}
+.subscribe {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  
+}
+.email-input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid var(--dark-text-color);
+  padding: 0 5px;
+}
+.subscribe-btn {
+  border: 1px solid var(--dark-text-color);
+  font-size: 16px;
 }
