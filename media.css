@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 64px;
+  }
+  .hero-content-container {
+    padding: 0 30px;
+  }
+  .recipe-heading {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 60px;
+  }
+  .hero-descr {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 58px;
+  }
+  .hero-descr {
+    font-size: 20px;
+  }
+}
+@media (max-width: 545px) {
+  .hero-title {
+    font-size: 54px;
+  }
+  .hero-descr {
+    font-size: 20px;
+  }
+}
