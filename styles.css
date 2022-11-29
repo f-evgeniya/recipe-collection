@@ -27,7 +27,7 @@ body {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("../img/bg.png") 0 0/100% auto no-repeat;
-    background-size: cover;
+  background-size: cover;
 }
 
 .hero-title {
@@ -43,12 +43,19 @@ body {
   line-height: 1.4;
   margin-bottom: 40px;
 }
-.recipe-heading{
+.recipe-heading {
   font-size: 28px;
   font-weight: 700;
   line-height: 1.3;
+  text-decoration: none;
+  color: var(--dark-text-color);
 }
-.recipe-container{
+.recipe-container {
   margin-top: 100px;
-  
+}
+.recipe-card {
+  padding: 0 20px;
+}
+.recipe-card a {
+  text-decoration: none;
 }
