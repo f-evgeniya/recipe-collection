@@ -12,6 +12,7 @@
   }
 
   .about-heading {
+    font-size: 58px;
     margin-top: 0;
   }
 }
@@ -43,7 +44,7 @@
     font-size: 20px;
   }
   .about-heading {
-    font-size: 60px;
+    font-size: 58px;
   }
   .about-text {
     margin: 0 30px;
