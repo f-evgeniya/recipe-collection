@@ -1,3 +1,20 @@
+@media (max-width: 992px) {
+  .hero-heading {
+    margin-top: 30px;
+  }
+  .about-container {
+    text-align: center;
+  }
+
+  .logo,
+  .social-links {
+    margin: 30px 0;
+  }
+
+  .about-heading {
+    margin-top: 0;
+  }
+}
 @media (max-width: 768px) {
   .hero-title {
     font-size: 64px;
@@ -5,20 +22,18 @@
   .hero-content-container {
     padding: 0 30px;
   }
-.recipe-card{
-  text-align: center;
-}
-  .footer-content  {
-   text-align: center;
+  .recipe-card {
+    text-align: center;
+  }
+  .footer-content {
+    text-align: center;
   }
   .created {
     padding: 30px 30px 15px;
   }
-
-
-.logo, .social-links{
-  margin: 30px 0;
-}
+  .about-heading {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 600px) {
   .hero-title {
@@ -26,6 +41,12 @@
   }
   .hero-descr {
     font-size: 20px;
+  }
+  .about-heading {
+    font-size: 60px;
+  }
+  .about-text {
+    margin: 0 30px;
   }
 }
 @media (max-width: 576px) {
@@ -43,5 +64,4 @@
   .hero-descr {
     font-size: 20px;
   }
-
 }
