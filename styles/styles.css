@@ -29,9 +29,15 @@ body {
     url("../img/bg.png") 0 0/100% auto no-repeat;
   background-size: cover;
 }
+.hero-title-homepage {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.4;
+}
 
 .hero-title {
-  color: #fff;
+  color: var(--dark-text-color);
   font-size: 72px;
   font-weight: 700;
   line-height: 1.4;
