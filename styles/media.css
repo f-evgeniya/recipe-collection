@@ -12,7 +12,7 @@
   }
 
   .about-heading {
-    font-size: 58px;
+    font-size: 50px;
     margin-top: 0;
   }
 }
@@ -23,10 +23,10 @@
   .hero-content-container {
     padding: 0 30px;
   }
+
+  .footer-content,
+  .content-container,
   .recipe-card {
-    text-align: center;
-  }
-  .footer-content {
     text-align: center;
   }
   .created {
@@ -44,10 +44,11 @@
     font-size: 20px;
   }
   .about-heading {
-    font-size: 58px;
+    font-size: 50px;
   }
-  .about-text {
-    margin: 0 30px;
+  .about-text,
+  .about-recipe-text {
+    margin: 50px 30px;
   }
 }
 @media (max-width: 576px) {
