@@ -5,9 +5,20 @@
   .hero-content-container {
     padding: 0 30px;
   }
-  .recipe-heading {
-    text-align: center;
+.recipe-card{
+  text-align: center;
+}
+  .footer-content  {
+   text-align: center;
   }
+  .created {
+    padding: 30px 30px 15px;
+  }
+
+
+.logo, .social-links{
+  margin: 30px 0;
+}
 }
 @media (max-width: 600px) {
   .hero-title {
@@ -32,4 +43,5 @@
   .hero-descr {
     font-size: 20px;
   }
+
 }

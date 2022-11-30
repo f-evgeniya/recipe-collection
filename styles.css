@@ -50,8 +50,11 @@ body {
   text-decoration: none;
   color: var(--dark-text-color);
 }
+.recipe-heading:hover {
+  color: var(--accent-pink-color);
+}
 .recipe-container {
-  margin-top: 100px;
+  margin: 100px auto;
 }
 .recipe-card {
   padding: 0 20px;
@@ -61,10 +64,10 @@ body {
 }
 .footer {
   background: #e5e5e5;
-  
 }
-.footer-content{
-align-items: baseline;}
+.footer-content {
+  align-items: baseline;
+}
 .logo,
 .social-links {
   margin: 70px 0;
@@ -77,19 +80,16 @@ align-items: baseline;}
 .social-links a:hover {
   color: var(--accent-pink-color);
 }
-.subscribe {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.5;
-  
-}
-.email-input {
-  width: 300px;
-  height: 35px;
-  border: 1px solid var(--dark-text-color);
-  padding: 0 5px;
-}
-.subscribe-btn {
-  border: 1px solid var(--dark-text-color);
+
+.created {
+  text-align: center;
   font-size: 16px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+.created a {
+  color: var(--dark-text-color);
+}
+.created a:hover {
+  color: var(--accent-pink-color);
 }

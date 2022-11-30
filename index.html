@@ -108,8 +108,8 @@
             alt="Homemade yogurt with fruits"
             class="img-fluid mb-4"
           />
-          <a href="#" target="_blank" title="Open recipe">
-            <h3 class="recipe-heading mb-5">Homemade yogurt with fruits</h3>
+          <a href="#" target="_blank" title="Open recipe" class="recipe-heading"
+            >Homemade yogurt with fruits
           </a>
         </div>
         <div class="col-md-6 recipe-card">
@@ -118,92 +118,130 @@
             alt="Beef steak with mustard marinade"
             class="img-fluid mb-4"
           />
-          <a href="#" target="_blank" title="Open recipe">
-            <h3 class="recipe-heading mb-5">
-              Beef steak with mustard marinade
-            </h3>
+          <a
+            href="#"
+            target="_blank"
+            title="Open recipe"
+            class="recipe-heading"
+          >
+            Beef steak with mustard marinade
           </a>
         </div>
-        <div class="col-md-6 recipe-card">
+        <div class="col-md-6 recipe-card mt-5">
           <img
             src="/img/hummus.png"
             alt="Hummus with avocado"
             class="img-fluid mb-4"
-          /><a href="#" target="_blank" title="Open recipe">
-            <h3 class="recipe-heading mb-5">Nut hummus with avocado</h3>
+          /><a
+            href="#"
+            target="_blank"
+            title="Open recipe"
+            class="recipe-heading"
+            >Nut hummus with avocado
           </a>
         </div>
-        <div class="col-md-6 recipe-card">
+        <div class="col-md-6 recipe-card mt-5">
           <img
             src="/img/meetballs.png"
             alt="Meetballs"
             class="img-fluid mb-4"
-          /><a href="#" target="_blank" title="Open recipe">
-            <h3 class="recipe-heading mb-5">Meetballs</h3>
+          /><a
+            href="#"
+            target="_blank"
+            title="Open recipe"
+            class="recipe-heading"
+            >Meetballs
           </a>
         </div>
-        <div class="col-md-6 recipe-card">
+        <div class="col-md-6 recipe-card mt-5">
           <img
             src="/img/fish.png"
             alt="Fish with spinach and zucchini"
             class="img-fluid mb-4"
-          /><a href="#" target="_blank" title="Open recipe">
-            <h3 class="recipe-heading mb-5">
-              Salmon with spinach and zucchini
-            </h3>
+          /><a
+            href="#"
+            target="_blank"
+            title="Open recipe"
+            class="recipe-heading"
+          >
+            Salmon with spinach and zucchini
           </a>
         </div>
-        <div class="col-md-6 recipe-card">
+        <div class="col-md-6 recipe-card mt-5">
           <img
             src="/img/pasta.png"
             alt="Pasta farfalle with pesto"
             class="img-fluid mb-4"
-          /><a href="#" target="_blank" title="Open recipe">
-            <h3 class="recipe-heading mb-5">Pasta farfalle with pesto</h3>
+          /><a
+            href="#"
+            target="_blank"
+            title="Open recipe"
+            class="recipe-heading"
+            >Pasta farfalle with pesto
           </a>
         </div>
-        <div class="col-md-6 recipe-card">
+        <div class="col-md-6 recipe-card mt-5">
           <img src="/img/pancakes.png" alt="Pancakes" class="img-fluid mb-4" />
-          <a href="#" target="_blank" title="Open recipe"
-            ><h3 class="recipe-heading mb-5">Pancakes</h3>
+          <a href="#" target="_blank" title="Open recipe" class="recipe-heading"
+            >Pancakes
           </a>
         </div>
-        <div class="col-md-6 recipe-card">
+        <div class="col-md-6 recipe-card mt-5">
           <img
             src="/img/fruit-salad.png"
             alt="Fruit salad"
             class="img-fluid mb-4"
-          /><a href="#" target="_blank" title="Open recipe">
-            <h3 class="recipe-heading mb-5">Pomelo and greapfruit salad</h3>
+          /><a
+            href="#"
+            target="_blank"
+            title="Open recipe"
+            class="recipe-heading"
+            >Pomelo and greapfruit salad
           </a>
         </div>
       </div>
     </div>
     <!-- footer -->
     <footer class="footer mt-5">
-      <div class="container footer-content d-flex justify-content-between">
+      <div class="container footer-content d-md-flex justify-content-between">
         <img src="./img/Logo.png" alt="logo" class="logo" />
+
         <div class="social-links">
           <a href=""><i class="fa-brands fa-facebook pe-4"></i></a>
           <a href=""><i class="fa-brands fa-instagram pe-4"></i></a>
           <a href=""><i class="fa-brands fa-twitter"></i></a>
         </div>
         <div class="subscribe">
-          <form>
-            <label for="email" class="label d-block mb-2"
-              >Want to see new recipes first?</label
-            >
+          <div class="input-group mb-3">
+            
             <input
               type="email"
-              name="email"
-              id="email"
-              class="email-input rounded"
+              class="form-control"
               placeholder="Enter email"
+              aria-describedby="button-addon2"
             />
-            <button type="submit" class="btn subscribe-btn">Subscribe</button>
-          </form>
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="button-addon2"
+            >
+              Subscribe
+            </button>
+          </div>
         </div>
       </div>
+      <p class="created">
+        Created by
+        <a href="https://www.shecodes.io/graduates/54185-evgeniya-firsova">
+          Evgeniya Firsova</a
+        >
+        and is
+        <a href="https://github.com/f-evgeniya/recipe-collection">
+          open-sourced on GitHub</a
+        >
+        and <a href="https://www.netlify.com/"> hosted on Netlify</a>
+      </p>
     </footer>
+   
   </body>
 </html>
