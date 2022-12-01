@@ -15,6 +15,9 @@
     font-size: 50px;
     margin-top: 0;
   }
+  .recipe-descr-container {
+    padding: 0 30px;
+  }
 }
 @media (max-width: 768px) {
   .hero-title {
@@ -34,6 +37,12 @@
   }
   .about-heading {
     margin-top: 30px;
+  }
+  .recipe-collection-heading {
+    text-align: center;
+  }
+  .method-steps {
+    margin-top: 24px;
   }
 }
 @media (max-width: 600px) {
