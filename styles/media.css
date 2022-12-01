@@ -5,12 +5,10 @@
   .about-container {
     text-align: center;
   }
-
   .logo,
   .social-links {
     margin: 30px 0;
   }
-
   .about-heading {
     font-size: 50px;
     margin-top: 0;
@@ -18,7 +16,11 @@
   .recipe-descr-container {
     padding: 0 30px;
   }
+  .recipe-img {
+    width: 100%;
+  }
 }
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 64px;
