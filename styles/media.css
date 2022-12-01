@@ -19,6 +19,9 @@
   .recipe-img {
     width: 100%;
   }
+  .contact-heading {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -45,6 +48,9 @@
   }
   .method-steps {
     margin-top: 24px;
+  }
+  .contact-heading {
+    margin-top: 50px;
   }
 }
 @media (max-width: 600px) {
